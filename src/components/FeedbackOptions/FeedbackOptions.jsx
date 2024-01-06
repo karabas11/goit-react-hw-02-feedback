@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import { FeedbackOptionsButton, FeedbackOptionsItem, FeedbackOptionsStyle } from './FeedbackOptions.styled';
 
-
 const FeedbackOptions = ({options, onLeaveFeedback} ) => (
   <FeedbackOptionsStyle>
-    {options.map((option, index) => (
-      <FeedbackOptionsItem key={index}>
+    {options.map((option) => (
+      <FeedbackOptionsItem key={option}>
        <FeedbackOptionsButton 
         type="button" 
         name={option}
@@ -21,4 +20,3 @@ FeedbackOptions.propTypes = {
 };
 
 export default FeedbackOptions
-

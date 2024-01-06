@@ -7,14 +7,11 @@ export const FeedbackOptionsStyle = styled.ul`
     align-items: center;
     gap: 15px;
     list-style: none;
-
 `
-
-export const FeedbackOptionsItem = styled.li `
+export const FeedbackOptionsItem = styled.li`
   /* padding-bottom: 10px; */
 `
-
-export const FeedbackOptionsButton = styled.button `
+export const FeedbackOptionsButton = styled.button`
   display: inline-block;
   width: 80px;
   height: 40px;
@@ -30,5 +27,3 @@ export const FeedbackOptionsButton = styled.button `
     background-color: #94bbe9;
   }
 `
-
-
